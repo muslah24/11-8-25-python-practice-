@@ -1,0 +1,26 @@
+blood = input("Enter your blood group: ")
+print("your blood group is: ",blood)
+
+name = input("Enter your name: ")
+
+
+age = input("Enter your age: ")
+
+
+if(blood == "A+"):
+    print("you are fit for donation")
+    #print("you can donate blood  to A+ and AB+")
+    print("Name is: ", name)
+    print("Age is: ", age)
+elif(blood == "B+"):
+    print("you are fit for donation ")
+    #print("you can donate blood  to B+ and AB+")
+    print("Name is: ", name)
+    print("Age is: ", age)
+elif(blood == "O+"):
+    print("you are fit for donation")
+    #print("you are donate to O+, A+, B+, AB+")
+    print("Name is: ", name)
+    print("Age is: ", age)
+else:
+    print("you are not fit for donation")    
